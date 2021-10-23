@@ -2,9 +2,14 @@
 
 $mainFont: "Montserrat", sans-serif;
 $logoColor: #901296;
+$bgColor: #080c0d;
 
 body {
   font-family: $mainFont;
-  background: #080c0d;
+  background: $bgColor;
   color: white;
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }

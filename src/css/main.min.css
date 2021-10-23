@@ -5,6 +5,11 @@ body {
   color: white;
 }
 
+body .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,5 +53,35 @@ header .menu div:hover {
 
 header .menu__kontakt {
   border-right: 0px !important;
+}
+
+main .quote {
+  position: relative;
+}
+
+main .quote__img {
+  max-width: 100%;
+}
+
+main .quote__btn {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #080c0d6b;
+  padding: 20px;
+  color: white;
+  border: 2px solid white;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main .quote__btn:hover {
+  background-color: #9012967d;
 }
 /*# sourceMappingURL=main.min.css.map */

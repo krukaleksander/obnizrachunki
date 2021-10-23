@@ -1,0 +1,26 @@
+main {
+  .quote {
+    position: relative;
+    &__img {
+      max-width: 100%;
+    }
+    &__btn {
+      position: absolute;
+      bottom: 30%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #080c0d6b;
+      padding: 20px;
+      color: white;
+      border: 2px solid white;
+      letter-spacing: 1px;
+      font-size: 18px;
+      font-weight: bolder;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: #9012967d;
+      }
+    }
+  }
+}
