@@ -1,5 +1,6 @@
 import React from "react";
 import "normalize.css";
+import "./css/main.min.css";
 
 const App = () => {
   return (
