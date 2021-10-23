@@ -4,4 +4,49 @@ body {
   background: #080c0d;
   color: white;
 }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .logo {
+  padding: 10px;
+}
+
+header .logo__img {
+  width: 200px;
+}
+
+header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-weight: bolder;
+  height: 60px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+header .menu div {
+  padding: 30px;
+  line-height: 0px;
+  border-right: 1px solid #901296;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .menu div:hover {
+  color: #901296;
+}
+
+header .menu__kontakt {
+  border-right: 0px !important;
+}
 /*# sourceMappingURL=main.min.css.map */

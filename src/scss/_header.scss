@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: center;
+  .logo {
+    padding: 10px;
+    &__img {
+      width: 200px;
+    }
+  }
+  .menu {
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+    height: 60px;
+    align-self: center;
+    div {
+      padding: 30px;
+      line-height: 0px;
+      border-right: 1px solid $logoColor;
+      cursor: pointer;
+      transition: 0.5s;
+      &:hover {
+        color: $logoColor;
+      }
+    }
+    &__kontakt {
+      border-right: 0px !important;
+    }
+  }
+}
