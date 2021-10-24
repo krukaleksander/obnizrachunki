@@ -1,0 +1,16 @@
+.about {
+  min-height: 500px;
+  padding: 20px;
+  color: white;
+  background-image: url("../images/aboutbg.jpg");
+  &__section {
+    h2 {
+      color: $logoColor;
+    }
+    p {
+      letter-spacing: 2px;
+      line-height: 160%;
+      width: 50%;
+    }
+  }
+}

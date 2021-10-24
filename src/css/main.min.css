@@ -90,7 +90,6 @@ main .quote__btn:hover {
 }
 
 .offer {
-  width: 100vw;
   min-height: 400px;
   background-color: #fff;
   color: #080c0d;
@@ -106,10 +105,40 @@ main .quote__btn:hover {
           align-items: center;
   line-height: 150%;
   background: url("../images/offerbg.jpg");
-  background-attachment: fixed;
 }
 
 .offer__heading {
   color: #901296;
+}
+
+.about {
+  min-height: 500px;
+  padding: 20px;
+  color: white;
+  background-image: url("../images/aboutbg.jpg");
+}
+
+.about__section h2 {
+  color: #901296;
+}
+
+.about__section p {
+  letter-spacing: 2px;
+  line-height: 160%;
+  width: 50%;
+}
+
+.contact {
+  min-height: 500px;
+  background: url("../images/contactbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact__heading {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.445);
 }
 /*# sourceMappingURL=main.min.css.map */

@@ -1,0 +1,13 @@
+.contact {
+  min-height: 500px;
+  background: url("../images/contactbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__heading {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
+  }
+}
