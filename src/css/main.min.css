@@ -6,7 +6,6 @@ body {
 }
 
 body .wrapper {
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -55,6 +54,11 @@ header .menu__kontakt {
   border-right: 0px !important;
 }
 
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 main .quote {
   position: relative;
 }
@@ -83,5 +87,29 @@ main .quote__btn {
 
 main .quote__btn:hover {
   background-color: #9012967d;
+}
+
+.offer {
+  width: 100vw;
+  min-height: 400px;
+  background-color: #fff;
+  color: #080c0d;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 150%;
+  background: url("../images/offerbg.jpg");
+  background-attachment: fixed;
+}
+
+.offer__heading {
+  color: #901296;
 }
 /*# sourceMappingURL=main.min.css.map */

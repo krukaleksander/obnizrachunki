@@ -1,0 +1,16 @@
+.offer {
+  width: 100vw;
+  min-height: 400px;
+  background-color: #fff;
+  color: $bgColor;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 150%;
+  background: url("../images/offerbg.jpg");
+  background-attachment: fixed;
+  &__heading {
+    color: $logoColor;
+  }
+}
